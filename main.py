@@ -16,13 +16,6 @@ from kivy.uix.screenmanager import Screen
 from kivy.uix.textinput import TextInput
 from screeninfo import get_monitors
 
-title = KvCalc
-
-
-package.name = kvcalc
-
-
-package.domain = org.kvcalc
 
 monitors = get_monitors()
 primary_monitor = monitors[0]
